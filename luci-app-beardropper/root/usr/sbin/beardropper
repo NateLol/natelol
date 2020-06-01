@@ -62,7 +62,7 @@ uciLoadVar firewallTarget DROP
 
 # Not commonly changed, but changeable via uci or cmdline (primarily 
 # to enable multiple parallel runs with different parameters)
-uciLoadVar firewallChain beardropper
+uciLoadVar firewallChain BEARDROPPER
 
 # Advanced variables, changeable via uci only (no cmdline), it is 
 # unlikely that these will need to be changed, but just in case...
