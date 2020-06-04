@@ -13,6 +13,6 @@ uci -q batch <<-EOF >/dev/null
 #	commit firewall
 EOF
 
-touch /tmp/beardropper
+touch /tmp/beardropper.bddb
 rm -rf /tmp/luci-*
 exit 0
