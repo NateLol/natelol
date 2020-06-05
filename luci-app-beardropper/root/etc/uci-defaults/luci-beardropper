@@ -5,12 +5,6 @@ uci -q batch <<-EOF >/dev/null
 	add ucitrack beardropper
 	set ucitrack.@beardropper[-1].init=beardropper
 	commit ucitrack
-#	delete firewall.beardropper
-#	set firewall.beardropper=include
-#	set firewall.beardropper.type=script
-#	set firewall.beardropper.path=/etc/beardropper.include
-#	set firewall.beardropper.reload=1
-#	commit firewall
 EOF
 
 touch /tmp/beardropper.bddb
